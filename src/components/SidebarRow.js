@@ -1,4 +1,3 @@
-import { Icon } from '@material-ui/core';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -18,20 +17,12 @@ display: flex;
 align-items: center;
 padding: 10px 20px;
 
-  ${props => props.selected &&`
+${props => props.selected && `
     background-color: lightgray;
-    &:first-child {
-        // font-weight: bold;
+    &${Div} > .sidebarRow_title {font-weight: bold;}
+    &${Div} > .sidebarRow_Icon {color: red;}
+
     `}
-
-   .sidebarRow_Icon{
-      color: red;
-  }
-  .sidebarRow_title{
-        font-weight: bold;
-    }
-}
-
 :hover{
     background-color: lightgray;
     cursor: pointer;
@@ -52,7 +43,4 @@ padding: 10px 20px;
    margin-left: 20px;
    font-size: 12px;
    font-weight: 500;
-}
-
-
-`
+}`
