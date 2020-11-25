@@ -71,13 +71,14 @@ function RecommendedVideos() {
                   />
 
                 <VideoCard 
-                  title="10 Most Beautiful Places In The World"
-                  views="703.1K Views" 
+                  title="C'est Si Bon ⎮Joscho Stephan Trio"
+                  views="109K Views" 
                   timestamp="1 month ago"   
-                  channelImg="https://yt3.ggpht.com/ytc/AAUvwnjoB-hAK7gx79gggFb_7bFs9X8MR69PhY44Mi2P8A=s88-c-k-c0xffffffff-no-rj-mo"
-                  channel="Top Trending"
-                  image="https://i.ytimg.com/vi/m0iMU57w2_U/hqdefault.jpg"    
+                  channelImg="https://yt3.ggpht.com/ytc/AAUvwngFL4yMhTpmJdDhnkKRVdEoivALQTKVhszctC84=s88-c-k-c0xffffffff-no-rj-mo"
+                  channel="Joscho Stephan - Guitarist"
+                  image="https://i.ytimg.com/vi/KN_JjTQ2yqU/maxresdefault.jpg"    
                   />
+
             </div>
         </Div>
     )

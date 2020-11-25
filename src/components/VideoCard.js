@@ -32,5 +32,23 @@ const Div = styled.div`
 
 .videoInfo{
     display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.videoText{
+    margin-left: 15px;
+    p{
+        font-size: 14px;
+        color: gray;
+    }
+}
+h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.videoAvatar{
+    height: 30px !important; 
+    width: 30px !important; 
 }
 `
