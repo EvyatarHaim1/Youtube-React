@@ -8,3 +8,5 @@ Youtube-React:
 * Flexbox
 * styled-components
 * Firebase Hosting
+
+![alt text](https://github.com/EvyatarHaim1/Youtube-React/blob/main/src/ScreenView.png)
